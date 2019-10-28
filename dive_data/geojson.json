@@ -1,0 +1,31 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{ "type": "Feature", "properties": {"depth": 398, "color": "#63ff94"}, "geometry": { "type": "Point", "coordinates": [ 139.607105, 35.155965 ]}},
+		{ "type": "Feature", "properties": {"depth": 399, "color": "#63ff94"}, "geometry": { "type": "Point", "coordinates": [ 139.607105, 35.155965 ]}},
+		{ "type": "Feature", "properties": {"depth": 400, "color": "#63ff94"}, "geometry": { "type": "Point", "coordinates": [ 139.60710666666665, 35.155966666666664 ]}},
+		{ "type": "Feature", "properties": {"depth": 401, "color": "#63ff94"}, "geometry": { "type": "Point", "coordinates": [ 139.60710833333334, 35.155966666666664 ]}},
+		{ "type": "Feature", "properties": {"depth": 402, "color": "#5aff9c"}, "geometry": { "type": "Point", "coordinates": [ 139.60711, 35.155966666666664 ]}},
+		{ "type": "Feature", "properties": {"depth": 403, "color": "#5aff9c"}, "geometry": { "type": "Point", "coordinates": [ 139.60711166666667, 35.155965 ]}},
+		{ "type": "Feature", "properties": {"depth": 404, "color": "#5aff9c"}, "geometry": { "type": "Point", "coordinates": [ 139.60711333333333, 35.155965 ]}},
+		{ "type": "Feature", "properties": {"depth": 405, "color": "#5aff9c"}, "geometry": { "type": "Point", "coordinates": [ 139.607115, 35.155965 ]}},
+		{ "type": "Feature", "properties": {"depth": 406, "color": "#5aff9c"}, "geometry": { "type": "Point", "coordinates": [ 139.607115, 35.155966666666664 ]}},
+		{ "type": "Feature", "properties": {"depth": 407, "color": "#5aff9c"}, "geometry": { "type": "Point", "coordinates": [ 139.607115, 35.155966666666664 ]}},
+		{ "type": "Feature", "properties": {"depth": 408, "color": "#5aff9c"}, "geometry": { "type": "Point", "coordinates": [ 139.60711666666666, 35.155966666666664 ]}},
+		{ "type": "Feature", "properties": {"depth": 409, "color": "#52ffa5"}, "geometry": { "type": "Point", "coordinates": [ 139.60711833333335, 35.155968333333334 ]}},
+		{ "type": "Feature", "properties": {"depth": 410, "color": "#52ffa5"}, "geometry": { "type": "Point", "coordinates": [ 139.60711833333335, 35.155968333333334 ]}},
+		{ "type": "Feature", "properties": {"depth": 411, "color": "#52ffa5"}, "geometry": { "type": "Point", "coordinates": [ 139.60711833333335, 35.15597 ]}},
+		{ "type": "Feature", "properties": {"depth": 412, "color": "#52ffa5"}, "geometry": { "type": "Point", "coordinates": [ 139.60711833333335, 35.15597 ]}},
+		{ "type": "Feature", "properties": {"depth": 413, "color": "#52ffa5"}, "geometry": { "type": "Point", "coordinates": [ 139.60712, 35.15597 ]}},
+		{ "type": "Feature", "properties": {"depth": 414, "color": "#52ffa5"}, "geometry": { "type": "Point", "coordinates": [ 139.60712, 35.155971666666666 ]}},
+		{ "type": "Feature", "properties": {"depth": 415, "color": "#52ffa5"}, "geometry": { "type": "Point", "coordinates": [ 139.60712, 35.155971666666666 ]}},
+		{ "type": "Feature", "properties": {"depth": 416, "color": "#52ffa5"}, "geometry": { "type": "Point", "coordinates": [ 139.60712, 35.155971666666666 ]}},
+		{ "type": "Feature", "properties": {"depth": 417, "color": "#4affad"}, "geometry": { "type": "Point", "coordinates": [ 139.60712166666667, 35.155971666666666 ]}},
+		{ "type": "Feature", "properties": {"depth": 418, "color": "#4affad"}, "geometry": { "type": "Point", "coordinates": [ 139.60712166666667, 35.15597 ]}},
+		{ "type": "Feature", "properties": {"depth": 419, "color": "#4affad"}, "geometry": { "type": "Point", "coordinates": [ 139.60712166666667, 35.15597 ]}},
+		{ "type": "Feature", "properties": {"depth": 420, "color": "#4affad"}, "geometry": { "type": "Point", "coordinates": [ 139.60712166666667, 35.15597 ]}},
+		{ "type": "Feature", "properties": {"depth": 421, "color": "#4affad"}, "geometry": { "type": "Point", "coordinates": [ 139.60712, 35.15597 ]}},
+		{ "type": "Feature", "properties": {"depth": 422, "color": "#4affad"}, "geometry": { "type": "Point", "coordinates": [ 139.60712, 35.15597 ]}},
+		{ "type": "Feature", "properties": {"depth": 423, "color": "#4affad"}, "geometry": { "type": "Point", "coordinates": [ 139.60711833333335, 35.15597 ]}}
+	]
+}
