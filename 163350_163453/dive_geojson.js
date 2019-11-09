@@ -9,7 +9,7 @@ var dive_end_lon = 139.60699833333334;
 
 var dive_name  = '<hd>Name: </hd>Misaki<br>';
 var dive_date  = '<hd>Date: </hd>October 05, 2019<br>';
-var dive_dist  = '<hd>Time: </hd>16:33:50 - 16:34:53 m<br>';
+var dive_time  = '<hd>Time: </hd>16:33:50 - 16:34:53 m<br>';
 var dive_dist  = '<hd>Distance: </hd>34.82 m<br>';
 var dive_depth = '<hd>Depth: </hd>0.53 m<br>';
 
