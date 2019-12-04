@@ -1,6 +1,6 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{ "type": "Feature", "properties": {"depth": 0.5019, "color": "#ca0000"}, "geometry": { "type": "LineString", "coordinates": [[ 139.607085, 35.15593833333333 ],[ 139.6070873277718,35.15593941846531]]}},
+		{ "type": "Feature", "properties": {"depth": 0.5019, "color": "#ca0000"}, "geometry": { "type": "LineString", "coordinates": [[ 139.607085, 35.15593833333333 ],[ 139.6070873277718,35.15593941846531]]}}
 	]
 }
