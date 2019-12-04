@@ -1,6 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{ "type": "Feature", "properties": {"depth": 0.5019, "color": "#ca0000"}, "geometry": { "type": "LineString", "coordinates": [[ 139.607085, 35.15593833333333 ],[ 139.6070873277718,35.15593941846531]]}}
-	]
+		{ "type": "Feature", "properties": {"depth": 200, "color": "#ffff68"}, "geometry": { "type": "Point", "coordinates": [[ 139.607085, 35.15593833333333 ],[ 139.60705833333333, 35.156125 ]]}},
+		{ "type": "Feature", "properties": {"depth": 239, "color": "#ff7c00"}, "geometry": { "type": "Point", "coordinates": [[ 139.607085, 35.156083333333335 ],[ 139.60699833333334, 35.15638833333333 ]]}},
+		{ "type": "Feature", "properties": {"depth": 281, "color": "#b20000"}, "geometry": { "type": "Point", "coordinates": [[ 139.60690166666666, 35.15633 ],[ 139.60723333333334, 35.15618166666667 ]]}}
+		]
 }
