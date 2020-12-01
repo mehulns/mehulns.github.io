@@ -83,14 +83,14 @@
 				// manager.addHandler( /\.tga$/i, new TGALoader() );
 
 				new MTLLoader( manager )
-					.setPath( 'https://mehulns.github.io/ishigaki/M1/' )
+					.setPath( 'https://mehulns.github.io/models/M1/' )
 					.load( 'model.mtl', function ( materials ) {
 
 						materials.preload();
 
 						new OBJLoader( manager )
 							.setMaterials( materials )
-                            .setPath( 'https://mehulns.github.io/ishigaki/M1/' )
+                            .setPath( 'https://mehulns.github.io/models/M1/' )
 							.load( 'model.obj', function ( object ) {
 
 								object.position.y = 10;

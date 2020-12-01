@@ -3,13 +3,19 @@
 	<head>
 		<title>Umi-Reco 3D Map</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./style/ur_3d.css">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<link type="text/css" rel="stylesheet" href="main.css">
 	</head>
 
 	<body>
-		<div id="info">
-		Umi-Reco Okinawa 
+		<div id="div_header">
+            <div id="div_header_logo">
+                <img src="./style/ur_logo_trans_black.png">
+            </div>
+		</div>
+		
+		<div id="div_info">
+			石垣島　米原ビーチ
 		</div>
 
 		<script type="module">
@@ -41,13 +47,14 @@
 				document.body.appendChild( container );
 
 				camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 2000 );
-				camera.position.z = 30;
+				camera.position.z = 50;
+				camera.up = new THREE.Vector3( 0, 0, 1 );
 
 				// scene
 
 				scene = new THREE.Scene();
 
-				var ambientLight = new THREE.AmbientLight( 0xffffff, 1.5 );
+				var ambientLight = new THREE.AmbientLight( 0xffbbbb, 1.5 );
 				scene.add( ambientLight );
 
 				//var pointLight = new THREE.PointLight( 0xffffff, 0.8 );
@@ -76,15 +83,15 @@
 				// manager.addHandler( /\.tga$/i, new TGALoader() );
 
 				new MTLLoader( manager )
-					.setPath( 'https://mehulns.github.io//oki-20200719-2/models/ur_full/' )
-					.load( 'ur_full.mtl', function ( materials ) {
+					.setPath( 'https://mehulns.github.io/models/M0/' )
+					.load( 'model.mtl', function ( materials ) {
 
 						materials.preload();
 
 						new OBJLoader( manager )
 							.setMaterials( materials )
-                            .setPath( 'https://mehulns.github.io//oki-20200719-2/models/ur_full/' )
-							.load( 'ur_full.obj', function ( object ) {
+                            .setPath( 'https://mehulns.github.io/models/M0/' )
+							.load( 'model.obj', function ( object ) {
 
 								object.position.y = 10;
 								scene.add( object );
