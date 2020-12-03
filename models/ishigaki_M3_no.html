@@ -9,6 +9,9 @@
 
 	<body>
 
+		<div id="div_3d_next">
+		</div>
+
 		<script type="module">
 
 			import * as THREE from 'https://mehulns.github.io/src/build/three.module.js';
@@ -34,7 +37,8 @@
 
 			function init() {
 
-				container = document.createElement( 'div' );
+                container = document.getElementById('div_3d_next');
+				//container = document.createElement( 'div' );
 				document.body.appendChild( container );
 
 				camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 2000 );
@@ -74,14 +78,14 @@
 				// manager.addHandler( /\.tga$/i, new TGALoader() );
 
 				new MTLLoader( manager )
-					.setPath( 'https://mehulns.github.io/models/M0/' )
+					.setPath( 'https://mehulns.github.io/models/M3/' )
 					.load( 'model.mtl', function ( materials ) {
 
 						materials.preload();
 
 						new OBJLoader( manager )
 							.setMaterials( materials )
-                            .setPath( 'https://mehulns.github.io/models/M0/' )
+                            .setPath( 'https://mehulns.github.io/models/M3/' )
 							.load( 'model.obj', function ( object ) {
 
 								object.position.y = 10;
