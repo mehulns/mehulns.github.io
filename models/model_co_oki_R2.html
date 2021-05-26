@@ -54,7 +54,7 @@
 
 				scene = new THREE.Scene();
 
-				var ambientLight = new THREE.AmbientLight( 0xffbbbb, 1.5 );
+				var ambientLight = new THREE.AmbientLight( 0xffeeee, 1.0 );
 				scene.add( ambientLight );
 
 				//var pointLight = new THREE.PointLight( 0xffffff, 0.8 );
@@ -83,15 +83,15 @@
 				// manager.addHandler( /\.tga$/i, new TGALoader() );
 
 				new MTLLoader( manager )
-					.setPath( 'https://mehulns.github.io/models/M0/' )
-					.load( 'model.mtl', function ( materials ) {
+					.setPath( 'https://mehulns.github.io/models/co_oki/R2/' )
+					.load( 'chunk2.mtl', function ( materials ) {
 
 						materials.preload();
 
 						new OBJLoader( manager )
 							.setMaterials( materials )
-                            .setPath( 'https://mehulns.github.io/models/M0/' )
-							.load( 'model.obj', function ( object ) {
+                            .setPath( 'https://mehulns.github.io/models/co_oki/R2/' )
+							.load( 'chunk2.obj', function ( object ) {
 
 								object.position.y = 10;
 								scene.add( object );
