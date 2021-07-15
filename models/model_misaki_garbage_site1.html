@@ -42,6 +42,7 @@
 				document.body.appendChild( container );
 
 				camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 2000 );
+				//camera = new THREE.OrthographicCamera(-70, 70,70,-70,10, 200 );
 				camera.position.z = 100;
 				camera.up = new THREE.Vector3( 0, 1, 0);
 
@@ -87,6 +88,12 @@
 							.load( 'model.obj', function ( object ) {
 
 								object.position.y = 10;
+								object.position.x = -10;
+								object.position.z = 20;
+								object.rotation.z = 25 * 3.14/180.0;
+								object.rotation.x = -25 * 3.14/180.0;
+
+					
 								scene.add( object );
 
 							}, onProgress, onError );
@@ -100,6 +107,9 @@
 				
 				controls = new OrbitControls( camera, renderer.domElement );
 				controls.enableDamping = true;
+				controls.autoRotate= true;
+
+
 				controls.dampingFactor = 0.1;
 			}
 
