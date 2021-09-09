@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<GroundOverlay>
+	<name>Untitled Image Overlay</name>
+	<Icon>
+		<href>/Volumes/Storage/Research/Projects/Umi-Reco/ur_online/ur_view_server/database/dive/l0-2d.png</href>
+		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+	<LatLonBox>
+		<north>24.45471944444444</north>
+		<south>24.45301388888889</south>
+		<east>124.1738305555555</east>
+		<west>124.1730722222222</west>
+		<rotation>90</rotation>
+	</LatLonBox>
+</GroundOverlay>
+</kml>
